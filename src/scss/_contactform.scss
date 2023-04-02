@@ -1,0 +1,125 @@
+/* CF START*/
+.banner__section{
+    .rightside{
+        .contactform{
+            .wpcf7-response-output{
+                font-size: 12px;
+                border: 1px solid;
+                margin: 5px 0;
+                text-align: center;
+            }
+            form{
+                width: 80%;
+                margin-left: auto;
+                .wpcf7-spinner{
+                    display: none;
+                }
+                gap: 20px;
+                flex-direction: column;
+                display: flex;
+                padding: 56px;
+                background: rgb(255 255 255 / 90%) 0% 0% no-repeat padding-box;
+                border-radius: 8px;
+                opacity: 1;
+                backdrop-filter: blur(5px);
+                -webkit-backdrop-filter: blur(5px);
+                @media (max-width: 1200px) {
+                    padding: 30px;
+                }
+                @media (max-width: 992px) {
+                    width: 100%;
+                    gap: 15px;
+                    background: rgb(255 255 255 / 80%) 0% 0% no-repeat padding-box;
+                }
+                h3{
+                    color: #232633;
+                    font-size: 32px;
+                    line-height: 44px;
+                    margin-bottom: 0;
+                    font-display: swap;
+                    font-family: 'Lato-Bold';
+                    @media (max-width: 992px) {
+                        font-size: 24px;
+                        line-height: 43px;
+                    }
+                }
+                p{
+                    .wpcf7-submit{
+                        background: #086238;
+                        border-radius: 4px;
+                        color: #FFFFFF;
+                        font-size: 14px;
+                        line-height: 24px;
+                        letter-spacing: 0px;
+                        font-display: swap;
+                        font-family: 'Lato-Regular';
+                        width: 171px;
+                        height: 46px;
+                        @media (max-width: 992px) {
+                            width: 100%;
+                        }
+                    }
+                    .btn-nr{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+                        gap: 14px;
+                        @media (max-width: 992px) {
+                            justify-content: center;
+                        }
+                        @media (max-width: 576px) {
+                            flex-direction: column;
+                            gap: 0;
+                            input{
+                                margin-bottom: 20px;
+                            }
+                        }
+                    }
+                    label{
+                        width: 100%;
+                        font-display: swap;font-family: 
+                        "Lato-Bold";
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 28px;
+                        letter-spacing: 0px;
+                        color: #232633;
+                        span{
+                            .wpcf7-not-valid{
+                                border-bottom: 1px solid red;
+                            }
+                            .wpcf7-not-valid-tip{
+                                display: none;
+                            }
+                            input{
+                                &::placeholder{
+                                    color: #2326335C;
+                                }
+                            }
+                            input, select{
+                                line-height: 28px;
+                                width: 100%;
+                                border: 0;
+                                border-bottom: 1px solid #23263329;
+                                background: transparent;
+                                border-radius: 0px;
+                            }
+                            select{
+                                width: 100%;
+                                color: #232633;
+                                line-height: 28px;
+                                option{
+                                    &:first-child{
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* CF END*/
